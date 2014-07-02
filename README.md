@@ -1,4 +1,4 @@
-flame
+data-template
 =====
 
-a java based game server
+generate java code and import data
