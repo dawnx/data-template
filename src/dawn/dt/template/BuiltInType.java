@@ -180,7 +180,7 @@ public enum BuiltInType implements DataParser {
 		public Object parse(String val, int col, List<String> row) {
 			try {
 				if (val == null || val.equals("0") || val.equals(""))
-					return false;
+					return null;
 				SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 				Date date = dateFormat.parse(val);
 				return date;
