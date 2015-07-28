@@ -1,4 +1,4 @@
 data-template
 =====
 
-generate java code and import data
+代码生在，数据导入
